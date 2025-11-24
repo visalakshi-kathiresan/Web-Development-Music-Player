@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="player-container">
+    <div class="song-details">
+       <img src="image/cover.png" class="cover" id="cover">
+        <div>
+            <h2 id="title">Song Title</h2>
+            <p id="artist">Artist Name</p>
+        </div>
+    </div>
+    <audio id="audio"></audio>
+    <div class="controls">
+        <button id="prev">⏮️</button>
+        <button id="play">▶️</button>
+        <button id="next">⏭️</button>
+        <input type="range" id="progress" value="0">
+    </div>
+    <div class="volume-section">
+        <label for="volume">Volume</label>
+        <input type="range" id="volume" min="0" max="1" step="0.01" value="1">
+    </div>
+    <div class="playlist" id="playlist">
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
