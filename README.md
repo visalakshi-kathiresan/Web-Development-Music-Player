@@ -1,56 +1,24 @@
-README – Web Music Player Project
-Project Title: Web-Based Music Player
+🎵 Web Music Player
 
-Technologies Used: HTML, CSS, JavaScript
-Difficulty Level: Hard
-Author: Visalakshi K.
+A clean, responsive web-based Music Player built using HTML, CSS, and JavaScript.
 
-1. Project Overview
+🚀 Features
 
-This project is a fully functional web-based music player built using HTML, CSS, and JavaScript. It allows users to play audio files, manage playlists, control the volume, navigate between songs, and view song information with an attractive user interface.
+▶️ Play / Pause / Next / Previous
 
-The goal of this project is to provide hands-on experience in building an interactive UI, handling audio playback using JavaScript, and creating a smooth user experience.
+🎚️ Volume Control
 
-2. Features
-✔ Audio Playback
+📈 Seek / Progress Bar
 
-Play, pause, next, and previous controls
+🎶 Playlist Support (static)
 
-Seek through songs using a progress bar
+🖼️ Song Cover Image
 
-Adjust playback volume
+📱 Fully Responsive UI
 
-✔ Playlist Management
+⚡ Built using HTML5 Audio API
 
-Static playlist loaded automatically
-
-Songs stored inside the /audio folder
-
-Each song includes title and artist details
-
-✔ Song Information Display
-
-Song cover image
-
-Song title
-
-Artist name
-
-✔ Responsive UI
-
-Works on desktop, tablet, and mobile
-
-Clean and modern layout
-
-✔ Built Using
-
-HTML5 <audio> element
-
-CSS for styling
-
-JavaScript for playback logic
-
-3. Project Folder Structure
+📂 Project Structure
 MUSIC PLAYER/
 │── audio/
 │     ├── song1.mp3
@@ -64,108 +32,97 @@ MUSIC PLAYER/
 │── index.html
 │── styles.css
 │── script.js
-│── README.pdf
+│── README.md
 
-4. How to Run the Project
+🛠️ Technologies Used
 
-Follow these steps:
+HTML5
 
-Method 1 – Direct Open
+CSS3
 
-Extract/Download the project folder.
+JavaScript (ES6)
 
-Open index.html in any modern browser:
+HTML5 Audio API
 
-Google Chrome
+🖥️ How to Run the Project
+Option 1: Open Normally
 
-Firefox
+Download the project folder
 
-Edge
+Double-click index.html
 
-Method 2 – Run via Live Server (Recommended)
+Option 2: Live Server (Recommended)
 
-If you are using VS Code:
+If using VS Code:
 
-Install the Live Server extension.
+Install Live Server extension
 
-Right-click index.html.
+Right-click index.html
 
-Click Open with Live Server.
+Click Open with Live Server
 
-This ensures audio loads smoothly without browser restrictions.
+🔧 How It Works
 
-5. How the Music Player Works
-HTML
+The playlist is loaded from the /audio folder
 
-Contains UI elements: buttons, progress bar, title, artist, cover image.
+JavaScript handles:
 
-CSS
-
-Styles the player layout, colors, spacing, responsiveness.
-
-JavaScript
-
-Handles:
-
-Play / Pause
+Music play/pause
 
 Updating progress bar
 
-Moving to next/previous song
+Navigating songs
 
-Volume adjustment
+Volume adjustments
 
-Updating song info dynamically
+Updating song title, artist & cover
 
-Example JS logic used:
+Uses key methods:
 
 audio.play()
-
 audio.pause()
-
 audio.currentTime
-
 audio.volume
 
-Event listeners like timeupdate, ended, change, click
 
-6. Controls
-Control	Function
-⏮️ Prev	Plays previous song
-▶️ / ⏸️	Play / Pause
-⏭️ Next	Next song
-🔊 Volume Slider	Adjusts volume
-Progress Bar	Seek through audio
-7. Requirements
+And events:
 
-Software Needed
+timeupdate
+click
+change
+ended
 
-Browser (Chrome recommended)
+📸 Screenshots
+Player UI from VS Code
 
-VS Code or any code editor (optional)
+(Add this image to your repo → rename to something simple like screenshot.png)
 
-No additional libraries are needed.
+Screenshot 2025-11-24 114903.png
 
-8. User Experience Notes
+⭐ Future Enhancements
 
-Smooth transitions between songs
+🎛️ Equalizer / Visualizer
 
-Simple, clean interface
+🔁 Shuffle & Repeat
 
-Playlist auto-initializes on page load
+🎤 Add lyrics
 
-Works offline (only local audio files required)
+🎨 Theme Mode (Dark/Light)
 
-9. Future Enhancements (Optional)
+⬆️ User song upload
 
-You may include these for more marks:
+🎧 Animated player UI
 
-Dynamic playlist (upload songs)
+🧪 Testing
 
-Music visualizer
+Play/Pause works
 
-Shuffle and repeat button
+Progress bar updates
 
-Dark/light mode
+Volume slider working
 
-Animated progress ring
+Next/Previous navigation
+
+Responsive on mobile
+
+Compatible with Chrome, Edge & Firefox
